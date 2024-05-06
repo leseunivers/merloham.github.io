@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* 네비게이션 바 스타일 */
+
+
+/* 메뉴 항목 스타일 */
+nav ul {
+    list-style-type: none; /* 목록 기호 제거 */
+    padding: 0; /* 내부 간격 제거 */
+}
+
+li {
+    display: inline; /* 항목을 가로로 배치 */
+}
+
+/* 링크 스타일 */
+nav ul li a {
+    display: inline-block; /* 링크를 가로로 배치 */
+    padding: 10px 20px; /* 내부 간격 */
+    text-decoration: none; /* 밑줄 제거 */
+    color: black; /* 글자색 */
+}
